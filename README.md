@@ -1,6 +1,6 @@
-# MOZHANG · 把手势变成魔法
+# Cyber Wand · 赛博魔杖
 
-MOZHANG 是基于 ESP32-C3 与 LSM6DS3TR-C 的手势识别设备，支持个人手势录入、本地识别、网页配置及无线事件输出。
+Cyber Wand 是基于 ESP32-C3 与 LSM6DS3TR-C 的手势识别设备，支持个人手势录入、本地识别、网页配置及无线事件输出。
 
 不需要 NAS 就能使用：给板子供电，通过网页录入自己的动作，随后由板子独立识别，以 LED、USB 串口或蓝牙报告结果。有 Home Assistant 时，可以进一步接入 Wi-Fi / MQTT，把手势绑定到自己的自动化。
 
