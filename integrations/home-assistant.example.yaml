@@ -1,0 +1,17 @@
+# Example only: paste into one automation's YAML editor after configuring HA MQTT.
+# Change topic and the device ID to your own wand. No real light/device is controlled.
+alias: 魔杖自定义动作演示
+triggers:
+  - trigger: mqtt
+    topic: mozhang/gesture
+    payload: custom1
+    value_template: "{{ value_json.gesture }}"
+conditions:
+  - condition: template
+    value_template: "{{ trigger.payload_json.device == 'MOZHANG-REPLACE_ME' }}"
+actions:
+  - action: persistent_notification.create
+    data:
+      title: 魔杖识别
+      message: "{{ trigger.payload_json.name }} · {{ trigger.payload_json.gesture }}"
+mode: single

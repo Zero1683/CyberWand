@@ -1,0 +1,15 @@
+.venv/
+.cache/
+.pio/
+__pycache__/
+*.pyc
+*.exe
+*.log
+logs/
+exports/
+.local-token
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db

@@ -1,0 +1,34 @@
+{
+  "version": "0.7",
+  "source_date": "2026-09-14",
+  "chip": "esp32c3",
+  "flash_size": "4MB",
+  "app_offset": "0x10000",
+  "build": "PlatformIO 6.1.19 / espressif32 7.0.1 / Arduino ESP32 2.0.17",
+  "files": {
+    "bootloader.bin": {
+      "bytes": 12464,
+      "sha256": "551199f81b3cc7d8dee7f7ec71679c499780a94aed306c39fda6351587918f01"
+    },
+    "boot_app0.bin": {
+      "bytes": 8192,
+      "sha256": "f94c5d786a7a8fab06ac5d10e33bf37711a6697636dc037559ea19cc410a17f0"
+    },
+    "firmware.bin": {
+      "bytes": 1685600,
+      "sha256": "af684545445d8a3004d96aaf7b81dc83afa557c52b29620a4baf715f016a1d9f"
+    },
+    "partitions.bin": {
+      "bytes": 3072,
+      "sha256": "0a8b5720e7b77ff11f1462458c3a509dee79224e5279898f26d6a2e3ae0517b7"
+    },
+    "recovery-v0.6.bin": {
+      "bytes": 293792,
+      "sha256": "baee55f0b25eee83d253b7199e7cbb8ed35411f0b3a82cb43785cf34815ae61b"
+    },
+    "relink/main.cpp.o": {
+      "bytes": 1396932,
+      "sha256": "3a8bad5fa1885d45127007181429b171922949d16afd4677bb2c5f9319d3c95a"
+    }
+  }
+}
