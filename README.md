@@ -2,13 +2,13 @@
 
 Cyber Wand 是基于 ESP32-C3 与 LSM6DS3TR-C 的手势识别设备，支持个人手势录入、本地识别、网页配置及无线事件输出。
 
-不需要 NAS 就能使用：给板子供电，通过网页录入自己的动作，随后由板子独立识别，以 LED、USB 串口或蓝牙报告结果。有 Home Assistant 时，可以进一步接入 Wi-Fi / MQTT，把手势绑定到自己的自动化。
+给板子供电，通过网页录入自己的动作，随后由板子独立识别，以 LED、USB 串口或蓝牙报告结果。有 Home Assistant 时，可以进一步接入 Wi-Fi / MQTT，把手势绑定到自己的自动化。
 
 **当前版本：v0.7。** 自有应用代码与文档使用 MIT 许可；第三方组件见 [许可说明](THIRD_PARTY_NOTICES.md)。
 
 ## 作者说明
 
-我是个蒟蒻作者，板子设计和程序编写全部都是 GPT6 完成的。有什么问题可以向 [SiriStudio_Zero@outlook.com](mailto:SiriStudio_Zero@outlook.com) 反馈，我看到会及时处理，谢谢！
+作者是纯蒟蒻，板子设计和程序编写全部都是 GPT6 完成的。有什么问题可以向 [SiriStudio_Zero@outlook.com](mailto:SiriStudio_Zero@outlook.com) 反馈，我看到会及时处理，谢谢！
 
 ## 从这里开始
 
